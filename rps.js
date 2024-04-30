@@ -26,7 +26,7 @@ let humanScore = 0;
 function playRound (computerChoice, humanChoice) {
     // computer = rock
     if (computerChoice === "rock" && humanChoice === "paper" ) {
-        ++humanChoice;
+        ++humanScore;
         console.log(`You win! Paper beats Rock.`);
         console.log(`Your score is ${humanScore} and the computer's score is ${computerScore}`);
     }
